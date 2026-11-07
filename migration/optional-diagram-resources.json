@@ -1,0 +1,640 @@
+{
+  "context": "Installed-skill mode; maintainer validators/commands and extra dark/full/animated preview variants are absent in the supplied archive, not lost during migration. Use included export/import scripts and available examples; do not claim absent validator results.",
+  "references": [
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-dp-integration.md",
+      "target": "assets/example-dp-integration-full.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-dp-integration.md",
+      "target": "assets/example-dp-integration-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-nested.md",
+      "target": "assets/example-nested-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-quadrant.md",
+      "target": "assets/example-quadrant-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-wardley.md",
+      "target": "assets/example-wardley-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-pyramid.md",
+      "target": "assets/example-pyramid-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-scatter.md",
+      "target": "assets/example-bubble-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-scatter.md",
+      "target": "scripts/verify-bubble.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-scatter.md",
+      "target": "assets/example-beeswarm-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-scatter.md",
+      "target": "scripts/test-verify-beeswarm.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-scatter.md",
+      "target": "assets/example-scatter-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-scatter.md",
+      "target": "scripts/verify-beeswarm.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-uml-class.md",
+      "target": "assets/example-uml-class-full.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-uml-class.md",
+      "target": "assets/example-uml-class-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-loop.md",
+      "target": "assets/example-loop-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/export-registry.md",
+      "target": "scripts/verify-block-registry.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-journey.md",
+      "target": "assets/example-journey-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-high-level.md",
+      "target": "scripts/lint-skin.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-high-level.md",
+      "target": "scripts/lint-skin-baseline.txt"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-high-level.md",
+      "target": "assets/example-high-level-vertical-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-high-level.md",
+      "target": "assets/example-high-level-vertical-full.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-high-level.md",
+      "target": "assets/example-datalake-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-high-level.md",
+      "target": "assets/example-high-level-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-high-level.md",
+      "target": "assets/example-datalake-full.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-line.md",
+      "target": "scripts/test-verify-ridgeline.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-line.md",
+      "target": "assets/example-line-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-line.md",
+      "target": "scripts/verify-bump.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-line.md",
+      "target": "assets/example-ridgeline-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-line.md",
+      "target": "scripts/test-verify-bump.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-line.md",
+      "target": "assets/example-slopegraph-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-line.md",
+      "target": "scripts/verify-streamgraph.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-line.md",
+      "target": "assets/example-streamgraph-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-line.md",
+      "target": "assets/example-bump-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-line.md",
+      "target": "scripts/verify-slopegraph.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-line.md",
+      "target": "scripts/verify-ridgeline.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-dependency.md",
+      "target": "assets/example-dependency-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-fishbone.md",
+      "target": "assets/example-fishbone-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-dp-security-matrix.md",
+      "target": "assets/example-dp-security-matrix-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-dp-security-matrix.md",
+      "target": "assets/example-dp-security-matrix-full.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-heatmap.md",
+      "target": "scripts/verify-heatmap.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-org-chart.md",
+      "target": "assets/example-org-chart-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-timeline.md",
+      "target": "assets/example-timeline-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-data-flow.md",
+      "target": "assets/example-data-flow-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/doctor.md",
+      "target": "scripts/verify-excalidraw-import.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/doctor.md",
+      "target": "scripts/lint-skin.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/doctor.md",
+      "target": "prompts/profile.md"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/doctor.md",
+      "target": "prompts/export-diagram.md"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/doctor.md",
+      "target": "scripts/verify-motion.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/doctor.md",
+      "target": "scripts/verify-plugin-package.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/doctor.md",
+      "target": "prompts/import-excalidraw.md"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/doctor.md",
+      "target": "scripts/verify-drawio-import.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/doctor.md",
+      "target": "scripts/verify-docs-sync.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/doctor.md",
+      "target": "scripts/verify-mermaid-import.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/doctor.md",
+      "target": "prompts/import-mermaid.md"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/doctor.md",
+      "target": "prompts/doctor.md"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-gantt.md",
+      "target": "assets/example-gantt-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-state.md",
+      "target": "assets/example-state-lifecycle-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-state.md",
+      "target": "assets/example-state-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-deployment.md",
+      "target": "assets/example-deployment-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-medallion.md",
+      "target": "assets/example-medallion-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-medallion.md",
+      "target": "assets/example-medallion-full.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/animation.md",
+      "target": "scripts/verify-exploded.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/animation.md",
+      "target": "scripts/lint-skin.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/animation.md",
+      "target": "scripts/verify-motion.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/animation.md",
+      "target": "scripts/test-verify-motion.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-waterfall.md",
+      "target": "scripts/verify-waterfall.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-waterfall.md",
+      "target": "assets/example-waterfall-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-waterfall.md",
+      "target": "scripts/test-verify-waterfall.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/output-spec.md",
+      "target": "assets/example-data-flow-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/output-spec.md",
+      "target": "assets/example-queue-animated.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/output-spec.md",
+      "target": "assets/example-paved-road-animated.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/output-spec.md",
+      "target": "assets/example-treemap-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/output-spec.md",
+      "target": "scripts/verify-docs-sync.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/output-spec.md",
+      "target": "assets/example-nested-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/output-spec.md",
+      "target": "assets/example-process-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/output-spec.md",
+      "target": "scripts/lint-render.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-story-map.md",
+      "target": "assets/example-story-map-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-architecture.md",
+      "target": "assets/example-architecture-containment-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-architecture.md",
+      "target": "assets/example-architecture-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-architecture.md",
+      "target": "assets/example-architecture-containment-full.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-architecture.md",
+      "target": "scripts/verify-architecture-containment.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-it-state.md",
+      "target": "assets/example-it-state-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-process.md",
+      "target": "assets/example-process-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-tree.md",
+      "target": "assets/example-tree-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-radar.md",
+      "target": "assets/example-radar-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-polar.md",
+      "target": "assets/example-polar-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-db-schema.md",
+      "target": "assets/example-db-schema-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-bar.md",
+      "target": "scripts/verify-dumbbell.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-bar.md",
+      "target": "assets/example-bar-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-bar.md",
+      "target": "scripts/test-verify-dumbbell.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-layers.md",
+      "target": "assets/example-layers-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-architecture-delta.md",
+      "target": "scripts/verify-architecture-delta.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-architecture-delta.md",
+      "target": "scripts/test-verify-architecture-delta.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-architecture-delta.md",
+      "target": "assets/example-architecture-delta-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-sankey.md",
+      "target": "assets/example-sankey-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-venn.md",
+      "target": "assets/example-venn-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-axonometric-plan.md",
+      "target": "assets/example-axonometric-plan-campus-animated.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-axonometric-plan.md",
+      "target": "assets/example-axonometric-plan-coffee-shop-animated.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-axonometric-plan.md",
+      "target": "assets/example-axonometric-plan-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-axonometric-plan.md",
+      "target": "scripts/build-axonometric-plan-examples.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-axonometric-plan.md",
+      "target": "scripts/verify-axonometric-plan.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-axonometric-plan.md",
+      "target": "assets/example-axonometric-plan-warehouse-animated.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-treemap.md",
+      "target": "scripts/verify-treemap.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-treemap.md",
+      "target": "scripts/verify-marimekko.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-treemap.md",
+      "target": "scripts/test-verify-marimekko.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-treemap.md",
+      "target": "assets/example-marimekko-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-treemap.md",
+      "target": "assets/example-treemap-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-treemap.md",
+      "target": "scripts/verify-skin-polarity.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-treemap.md",
+      "target": "scripts/lint-render.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-er.md",
+      "target": "assets/example-er-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-flowchart.md",
+      "target": "assets/example-flowchart-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-service-blueprint.md",
+      "target": "assets/example-service-blueprint-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-service-blueprint.md",
+      "target": "scripts/verify-service-blueprint.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-service-blueprint.md",
+      "target": "scripts/test-verify-service-blueprint.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-sequence.md",
+      "target": "assets/example-sequence-oauth-full.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-sequence.md",
+      "target": "assets/example-sequence-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-sequence.md",
+      "target": "assets/example-sequence-oauth-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-exploded.md",
+      "target": "scripts/verify-exploded.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-exploded.md",
+      "target": "assets/example-exploded-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-exploded.md",
+      "target": "assets/example-exploded-unboxing-animated.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-exploded.md",
+      "target": "assets/example-exploded-keyboard-animated.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-exploded.md",
+      "target": "assets/example-exploded-ai-stack-animated.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-exploded.md",
+      "target": "assets/example-exploded-phone-animated.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-exploded.md",
+      "target": "scripts/build-exploded-examples.py"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-swimlane.md",
+      "target": "assets/example-swimlane-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/type-kanban.md",
+      "target": "assets/example-kanban-dark.html"
+    },
+    {
+      "skill": "visual-artifacts",
+      "file": "references/diagram-design/references/style-guide.md",
+      "target": "scripts/verify-contrast.py"
+    }
+  ]
+}
