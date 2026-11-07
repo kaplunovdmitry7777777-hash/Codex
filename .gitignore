@@ -12,3 +12,4 @@ oauth_state.json
 playwright/.auth/
 node_modules/
 .npm-cache/
+.codeburn-cache/

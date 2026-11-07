@@ -33,10 +33,11 @@ def main():
     commands = {
         "version": ["--version"],
         "doctor": ["doctor", "--json"],
-        "today": ["today", "--format", "json"],
-        "week": ["report", "--period", "week", "--format", "json"],
+        "today": ["today", "--provider", "codex", "--format", "json"],
+        "week": ["report", "--period", "week", "--provider", "codex", "--format", "json"],
     }
-    env = {**os.environ, "CODEBURN_CURSOR_SYNC": "0", "DO_NOT_TRACK": "1", "NO_COLOR": "1"}
+    env = {**os.environ, "CODEBURN_CURSOR_SYNC": "0", "DO_NOT_TRACK": "1", "NO_COLOR": "1",
+           "CODEBURN_CACHE_DIR": str(root / ".codeburn-cache")}
     command = [node, str(runtime / "node_modules/codeburn/dist/cli.js"), *commands[args.command]]
     raise SystemExit(subprocess.run(command, cwd=root, env=env).returncode)
 

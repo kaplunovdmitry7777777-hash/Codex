@@ -17557,8 +17557,8 @@
       "source_repository": "getagentseal/codeburn",
       "source_commit": "d657b8886285f9257b4a71aea3afec15426d6201",
       "source_sha256": "f33b975105d3812f2056ac62c12a800cc21edb398539bf8cc80713a4d44b0971",
-      "sha256": "f33b975105d3812f2056ac62c12a800cc21edb398539bf8cc80713a4d44b0971",
-      "bytes": 1727
+      "sha256": "0e15d0f03685dad32a48f2c008c7533e3728527fd68f705a15f5cb7938e05c15",
+      "bytes": 1788
     },
     {
       "path": ".agents/skills/codeburn-cost/SOURCE.md",

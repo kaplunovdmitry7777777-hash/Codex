@@ -19,8 +19,8 @@
     },
     "today": {
       "exit_code": 0,
-      "stderr_present": true,
       "json_valid": true,
+      "stderr_present": false,
       "top_level_keys": [
         "generated",
         "currency",
@@ -34,10 +34,9 @@
         "activities",
         "tools",
         "mcpServers"
-      ],
-      "stderr_categories": [
-        "cache"
       ]
     }
-  }
+  },
+  "report_provider": "codex",
+  "cache": "ignored project-local .codeburn-cache"
 }

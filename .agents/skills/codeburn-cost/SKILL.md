@@ -1,6 +1,6 @@
 ---
 name: codeburn-cost
-description: "Учёт токенов и расчётной стоимости локальных сеансов Codex и других агентов через установленный CodeBurn; проверка наличия журналов и осторожная интерпретация оценок."
+description: "Учёт токенов и расчётной стоимости локальных сеансов Codex через установленный CodeBurn; проверка наличия журналов и осторожная интерпретация оценок."
 ---
 
 # CodeBurn cost
@@ -16,7 +16,8 @@ python3 tools/codeburn.py doctor
 python3 tools/codeburn.py today
 ```
 
-The wrapper uses a pinned, project-local CodeBurn CLI. If the runtime is missing,
+The wrapper uses a pinned, project-local CodeBurn CLI and filters reports to Codex.
+Other agents' usage is outside this wrapper's reporting scope. If the runtime is missing,
 report the missing dependency and the setup command printed by the wrapper;
 do not replace it with an unpinned npx invocation. Installing dependencies follows
 the user's request and host permissions.
