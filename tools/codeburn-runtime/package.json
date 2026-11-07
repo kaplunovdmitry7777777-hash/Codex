@@ -1,0 +1,9 @@
+{
+  "name": "codex-local-cost-tools",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Pinned local CodeBurn CLI; installation scripts are disabled.",
+  "dependencies": {
+    "codeburn": "0.9.27"
+  }
+}

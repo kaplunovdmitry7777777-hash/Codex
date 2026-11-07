@@ -1,0 +1,43 @@
+{
+  "codeburn_version": "0.9.27",
+  "install_method": "project-local npm ci --ignore-scripts --no-audit --no-fund",
+  "cursor_account_sync": "disabled by wrapper",
+  "caveman": "standalone text skill only; no CLI/hooks/proxy",
+  "graphify": "not installed",
+  "checks": {
+    "version": {
+      "exit_code": 0,
+      "stderr_present": false,
+      "version": "0.9.27"
+    },
+    "doctor": {
+      "exit_code": 0,
+      "stderr_present": false,
+      "json_valid": true,
+      "provider_count": 43,
+      "providers_with_history": 0
+    },
+    "today": {
+      "exit_code": 0,
+      "stderr_present": true,
+      "json_valid": true,
+      "top_level_keys": [
+        "generated",
+        "currency",
+        "period",
+        "periodKey",
+        "overview",
+        "daily",
+        "projects",
+        "models",
+        "unpricedModels",
+        "activities",
+        "tools",
+        "mcpServers"
+      ],
+      "stderr_categories": [
+        "cache"
+      ]
+    }
+  }
+}

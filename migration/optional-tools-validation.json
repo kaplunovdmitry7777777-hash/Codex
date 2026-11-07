@@ -1,0 +1,8 @@
+{
+  "skills_checked": 43,
+  "files_checked": 2916,
+  "python_files_syntax_checked": 1594,
+  "local_markdown_links_checked": 1769,
+  "errors": [],
+  "limits": "No remote URLs, anchors, model routing, authentication or workflow behavior tested. Fenced generation examples are excluded from local-link checks. Secret/privacy review is documented separately in SKILLS-MIGRATION.md."
+}

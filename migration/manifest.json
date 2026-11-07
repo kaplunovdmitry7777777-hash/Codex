@@ -44,7 +44,9 @@
     "telegram-channel-analysis": 2,
     "visual-artifacts": 299,
     "work-knowledge-base": 5,
-    "workstation-diagnostics": 3
+    "workstation-diagnostics": 3,
+    "caveman": 5,
+    "codeburn-cost": 3
   },
   "files": [
     {
@@ -17494,6 +17496,87 @@
       "source_sha256": "7528f3ccda3343e777a00911009bf5e3e0fcccee5f9092e0973076cb315bc71f",
       "sha256": "7528f3ccda3343e777a00911009bf5e3e0fcccee5f9092e0973076cb315bc71f",
       "bytes": 1413
+    },
+    {
+      "path": ".agents/skills/caveman/LICENSE",
+      "source_kind": "github-addition",
+      "source_repository": "JuliusBrussee/caveman",
+      "source_commit": "c310c9d300df13a1dd9f5c086120ffd857a164a1",
+      "source_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    {
+      "path": ".agents/skills/caveman/LICENSE-MIT",
+      "source_kind": "github-addition",
+      "source_repository": "JuliusBrussee/caveman",
+      "source_commit": "c310c9d300df13a1dd9f5c086120ffd857a164a1",
+      "source_sha256": "5eb826cd03151bcc7cce3f80d40e87733237fedfc6c36d6908aca5fd650a0bdb",
+      "sha256": "5eb826cd03151bcc7cce3f80d40e87733237fedfc6c36d6908aca5fd650a0bdb",
+      "bytes": 1071
+    },
+    {
+      "path": ".agents/skills/caveman/NOTICE",
+      "source_kind": "github-addition",
+      "source_repository": "JuliusBrussee/caveman",
+      "source_commit": "c310c9d300df13a1dd9f5c086120ffd857a164a1",
+      "source_sha256": "20112dc6e62e91da4f03c29fd10cfa41743a9c526389fdf1396c3649c18216fc",
+      "sha256": "20112dc6e62e91da4f03c29fd10cfa41743a9c526389fdf1396c3649c18216fc",
+      "bytes": 2285
+    },
+    {
+      "path": ".agents/skills/caveman/SKILL.md",
+      "source_kind": "github-addition",
+      "source_repository": "JuliusBrussee/caveman",
+      "source_commit": "c310c9d300df13a1dd9f5c086120ffd857a164a1",
+      "source_sha256": "415d43518f2b1a9498c15a445d4657117b129ee5e81b19454ce348439cc6672b",
+      "sha256": "883c98a4914e1bf29b333346cf1d1c31c54d665de32a956ba570f330d4d0dad0",
+      "bytes": 5046
+    },
+    {
+      "path": ".agents/skills/caveman/SOURCE.md",
+      "source_kind": "github-addition",
+      "source_repository": "JuliusBrussee/caveman",
+      "source_commit": "c310c9d300df13a1dd9f5c086120ffd857a164a1",
+      "source_sha256": "ed0cfa8b648d8b5bd9f8bb4c2353af1f513f1c4ec5fd30b39722e26289635e21",
+      "sha256": "ed0cfa8b648d8b5bd9f8bb4c2353af1f513f1c4ec5fd30b39722e26289635e21",
+      "bytes": 334
+    },
+    {
+      "path": ".agents/skills/codeburn-cost/LICENSE",
+      "source_kind": "github-addition",
+      "source_repository": "getagentseal/codeburn",
+      "source_commit": "d657b8886285f9257b4a71aea3afec15426d6201",
+      "source_sha256": "25dd3389bfc55f463f9745c6fa3f4193bb31b58157a6861836b62bf91f6b76e5",
+      "sha256": "25dd3389bfc55f463f9745c6fa3f4193bb31b58157a6861836b62bf91f6b76e5",
+      "bytes": 1066
+    },
+    {
+      "path": ".agents/skills/codeburn-cost/SKILL.md",
+      "source_kind": "github-addition",
+      "source_repository": "getagentseal/codeburn",
+      "source_commit": "d657b8886285f9257b4a71aea3afec15426d6201",
+      "source_sha256": "f33b975105d3812f2056ac62c12a800cc21edb398539bf8cc80713a4d44b0971",
+      "sha256": "f33b975105d3812f2056ac62c12a800cc21edb398539bf8cc80713a4d44b0971",
+      "bytes": 1727
+    },
+    {
+      "path": ".agents/skills/codeburn-cost/SOURCE.md",
+      "source_kind": "github-addition",
+      "source_repository": "getagentseal/codeburn",
+      "source_commit": "d657b8886285f9257b4a71aea3afec15426d6201",
+      "source_sha256": "bd324b8131dd0998305ecbc85e9e9174af380e912bdd4657cb97ea7997bc9151",
+      "sha256": "bd324b8131dd0998305ecbc85e9e9174af380e912bdd4657cb97ea7997bc9151",
+      "bytes": 638
+    }
+  ],
+  "additions": [
+    {
+      "skills": [
+        "caveman",
+        "codeburn-cost"
+      ],
+      "reason": "User-authorized selective installation after security review. Original 41-skill archive inventory remains unchanged."
     }
   ]
 }

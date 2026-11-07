@@ -33,7 +33,7 @@ def validate(root):
     expected_names = set(manifest["skills"])
     actual_names = {p.parent.name for p in skills_root.glob("*/SKILL.md")}
     errors = []
-    if expected_names != actual_names or len(actual_names) != 41:
+    if expected_names != actual_names:
         errors.append({"kind": "skill-set-mismatch"})
     for skill in sorted(actual_names):
         path = skills_root / skill / "SKILL.md"

@@ -10,3 +10,5 @@ storage_state.json
 master_token.json
 oauth_state.json
 playwright/.auth/
+node_modules/
+.npm-cache/
