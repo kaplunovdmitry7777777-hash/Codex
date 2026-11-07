@@ -1,0 +1,56 @@
+[
+  {
+    "path": ".agents/skills/ru-writing-and-hiring/references/job-post-builder/workflow.md",
+    "old": "references/gotchas.md",
+    "new": "reference/gotchas.md",
+    "occurrences": 1
+  },
+  {
+    "path": ".agents/skills/ru-writing-and-hiring/references/job-post-builder/workflow.md",
+    "old": "references/job-post-structure.md",
+    "new": "reference/job-post-structure.md",
+    "occurrences": 5
+  },
+  {
+    "path": ".agents/skills/ru-writing-and-hiring/references/job-post-builder/workflow.md",
+    "old": "references/offer-letter-template.md",
+    "new": "reference/offer-letter-template.md",
+    "occurrences": 5
+  },
+  {
+    "path": ".agents/skills/ru-writing-and-hiring/references/job-post-builder/workflow.md",
+    "old": "references/examples/worked-example.md",
+    "new": "reference/examples/worked-example.md",
+    "occurrences": 1
+  },
+  {
+    "path": ".agents/skills/ru-writing-and-hiring/references/job-post-builder/workflow.md",
+    "old": "references/interview-guide-structure.md",
+    "new": "reference/interview-guide-structure.md",
+    "occurrences": 4
+  },
+  {
+    "path": ".agents/skills/ru-writing-and-hiring/references/job-post-builder/reference/gotchas.md",
+    "old": "references/job-post-structure.md",
+    "new": "reference/job-post-structure.md",
+    "occurrences": 1
+  },
+  {
+    "path": ".agents/skills/ru-writing-and-hiring/references/job-post-builder/reference/examples/worked-example.md",
+    "old": "references/interview-guide-structure.md",
+    "new": "reference/interview-guide-structure.md",
+    "occurrences": 1
+  },
+  {
+    "path": ".agents/skills/ru-writing-and-hiring/references/job-post-builder/reference/examples/worked-example.md",
+    "old": "references/offer-letter-template.md",
+    "new": "reference/offer-letter-template.md",
+    "occurrences": 1
+  },
+  {
+    "path": ".agents/skills/ru-writing-and-hiring/references/job-post-builder/reference/examples/worked-example.md",
+    "old": "references/job-post-structure.md",
+    "new": "reference/job-post-structure.md",
+    "occurrences": 1
+  }
+]

@@ -1,0 +1,172 @@
+{
+  "method": "Heuristic pattern scan of all non-NUL text files, separate email/local-path review, extracted theme-PDF text, binary asset type review. No network submission of file contents.",
+  "text_files_scanned": 2843,
+  "binary_files_classified": 65,
+  "unresolved_secret_findings": 0,
+  "removed_email_like_values_in_business_examples": [
+    {
+      "path": ".agents/skills/customer-feedback/references/ticket-deflector/reference/examples/respond-refund-request.md",
+      "kind": "business-example-email",
+      "replacements": 1
+    },
+    {
+      "path": ".agents/skills/smb-finance-ru/references/tax-season-organizer/reference/examples/dokumenty-podryadchiki.md",
+      "kind": "business-example-email",
+      "replacements": 1
+    }
+  ],
+  "reviewed_candidates": [
+    {
+      "path": ".agents/skills/notebooklm/tests/e2e/test_mcp_http.py",
+      "line": 114,
+      "kind": "credential-assignment",
+      "review": "reviewed-synthetic-upstream-test-literal"
+    },
+    {
+      "path": ".agents/skills/notebooklm/tests/unit/test_source_batch_add_service.py",
+      "line": 265,
+      "kind": "credential-url",
+      "review": "reviewed-synthetic-upstream-test-literal"
+    },
+    {
+      "path": ".agents/skills/notebooklm/tests/unit/test_source_batch_add_service.py",
+      "line": 266,
+      "kind": "credential-url",
+      "review": "reviewed-synthetic-upstream-test-literal"
+    },
+    {
+      "path": ".agents/skills/notebooklm/tests/unit/test_android_grpc_canary.py",
+      "line": 575,
+      "kind": "google-oauth-shaped",
+      "review": "reviewed-synthetic-upstream-test-literal"
+    },
+    {
+      "path": ".agents/skills/notebooklm/tests/unit/test_auth_browser_facade.py",
+      "line": 102,
+      "kind": "credential-url",
+      "review": "reviewed-synthetic-upstream-test-literal"
+    },
+    {
+      "path": ".agents/skills/notebooklm/tests/unit/test_auth_mint_service.py",
+      "line": 484,
+      "kind": "google-oauth-shaped",
+      "review": "reviewed-synthetic-upstream-test-literal"
+    },
+    {
+      "path": ".agents/skills/notebooklm/tests/unit/test_auth_mint_service.py",
+      "line": 529,
+      "kind": "google-oauth-shaped",
+      "review": "reviewed-synthetic-upstream-test-literal"
+    },
+    {
+      "path": ".agents/skills/notebooklm/tests/unit/test_auth_mint_service.py",
+      "line": 555,
+      "kind": "google-oauth-shaped",
+      "review": "reviewed-synthetic-upstream-test-literal"
+    },
+    {
+      "path": ".agents/skills/notebooklm/tests/unit/test_auth_mint_service.py",
+      "line": 593,
+      "kind": "google-oauth-shaped",
+      "review": "reviewed-synthetic-upstream-test-literal"
+    },
+    {
+      "path": ".agents/skills/notebooklm/tests/unit/test_env_base_url.py",
+      "line": 87,
+      "kind": "credential-url",
+      "review": "reviewed-synthetic-upstream-test-literal"
+    },
+    {
+      "path": ".agents/skills/notebooklm/tests/unit/test_env_base_url.py",
+      "line": 95,
+      "kind": "credential-url",
+      "review": "reviewed-synthetic-upstream-test-literal"
+    },
+    {
+      "path": ".agents/skills/notebooklm/tests/unit/test_logging.py",
+      "line": 186,
+      "kind": "google-oauth-shaped",
+      "review": "reviewed-synthetic-upstream-test-literal"
+    },
+    {
+      "path": ".agents/skills/notebooklm/tests/unit/test_logging.py",
+      "line": 328,
+      "kind": "credential-assignment",
+      "review": "reviewed-synthetic-upstream-test-literal"
+    },
+    {
+      "path": ".agents/skills/notebooklm/tests/unit/test_browser_oauth_token.py",
+      "line": 37,
+      "kind": "credential-url",
+      "review": "reviewed-synthetic-upstream-test-literal"
+    },
+    {
+      "path": ".agents/skills/notebooklm/tests/unit/test_browser_oauth_token.py",
+      "line": 117,
+      "kind": "credential-url",
+      "review": "reviewed-synthetic-upstream-test-literal"
+    },
+    {
+      "path": ".agents/skills/notebooklm/tests/unit/test_refresh_cmd_redaction.py",
+      "line": 36,
+      "kind": "google-oauth-shaped",
+      "review": "reviewed-synthetic-upstream-test-literal"
+    },
+    {
+      "path": ".agents/skills/notebooklm/tests/unit/test_vcr_scrubbing.py",
+      "line": 154,
+      "kind": "google-oauth-shaped",
+      "review": "reviewed-synthetic-upstream-test-literal"
+    },
+    {
+      "path": ".agents/skills/notebooklm/tests/unit/test_source_upload_pipeline.py",
+      "line": 1406,
+      "kind": "credential-url",
+      "review": "reviewed-synthetic-upstream-test-literal"
+    },
+    {
+      "path": ".agents/skills/notebooklm/tests/unit/mcp/test_errors.py",
+      "line": 317,
+      "kind": "google-oauth-shaped",
+      "review": "reviewed-synthetic-upstream-test-literal"
+    },
+    {
+      "path": ".agents/skills/notebooklm/tests/unit/mcp/test_errors.py",
+      "line": 318,
+      "kind": "google-oauth-shaped",
+      "review": "reviewed-synthetic-upstream-test-literal"
+    },
+    {
+      "path": ".agents/skills/notebooklm/tests/unit/mcp/test_selfhosted_oauth.py",
+      "line": 700,
+      "kind": "credential-assignment",
+      "review": "reviewed-synthetic-upstream-test-literal"
+    },
+    {
+      "path": ".agents/skills/notebooklm/tests/unit/cli/test_login_master_token.py",
+      "line": 57,
+      "kind": "credential-url",
+      "review": "reviewed-synthetic-upstream-test-literal"
+    },
+    {
+      "path": ".agents/skills/notebooklm/tests/unit/android/test_auth_lifecycle.py",
+      "line": 29,
+      "kind": "google-oauth-shaped",
+      "review": "reviewed-synthetic-upstream-test-literal"
+    },
+    {
+      "path": ".agents/skills/notebooklm/tests/unit/android/test_auth.py",
+      "line": 17,
+      "kind": "google-oauth-shaped",
+      "review": "reviewed-synthetic-upstream-test-literal"
+    },
+    {
+      "path": ".agents/skills/notebooklm/tests/unit/android/test_drive_staging.py",
+      "line": 34,
+      "kind": "google-oauth-shaped",
+      "review": "reviewed-synthetic-upstream-test-literal"
+    }
+  ],
+  "retained": "Synthetic upstream test literals, public package author and font-license attribution; no local Google/NotebookLM sessions or .env credentials included.",
+  "limits": "Heuristic review, not a proof of absence of secrets. No authenticated service calls or universal binary-content secret detection."
+}

@@ -1,0 +1,18 @@
+{
+  "skill": "ru-writing-and-hiring",
+  "mode": "Manual application by this assistant of the installed SKILL.md and linked humanizer instructions; no automatic model routing claimed.",
+  "data": "Synthetic example; no real invoice, customer or payment action.",
+  "input": "Важно отметить: оплата по счёту № 17 на сумму 12 000 ₽ — до 10 ноября 2026 года. В целях своевременного закрытия периода просим осуществить оплату.",
+  "output": "Оплатите счёт № 17 на 12 000 ₽ до 10 ноября 2026 года. Это нужно для своевременного закрытия периода.",
+  "checks": {
+    "numbers_preserved_in_order": true,
+    "currency_preserved": true,
+    "no_em_dash_or_colon": true,
+    "boilerplate_removed": true,
+    "date_preserved": true
+  },
+  "result": "passed",
+  "files": "present",
+  "codex_discovery": "41/41 via fresh app-server skills/list; includes ru-writing-and-hiring",
+  "current_chat": "The current chat catalog has not been reloaded; start a new task on the migrated branch for normal skill selection."
+}
